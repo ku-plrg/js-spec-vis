@@ -189,17 +189,18 @@ npm install && npm run build
 
 And follow the instructions below to install the visualizer extension:
 
-1. Open the Chrome browser and enter
-   [`chrome://extensions/`](chrome://extensions/).
+1. Open the Chrome browser and enter `chrome://extensions/`.
 2. Turn on the `Developer mode` on the top right corner.
 3. Click the `Load unpacked` button and select the `visualizer/dist` directory.
 
 It works on ES2024 web page:
 [https://tc39.es/ecma262/2024/](https://tc39.es/ecma262/2024/multipage/).
 
-If you want to use `Run on Double Debugger` feature, you need to run the double
-debugger server/client before using it. Please refer to the [Double
-Debugger](#double-debugger)
+> [!NOTE]
+>
+> If you want to use `Run on Double Debugger` feature, you need to run the
+> double debugger server/client before using it.
+> Please refer to the [Double Debugger](#double-debugger)
 
 
 ## Double Debugger
