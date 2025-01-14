@@ -17,6 +17,7 @@ project/metals.sbt
 target/
 __MACOSX/
 resources/
+fuzz-data/
 
 ## tests
 tests/detail

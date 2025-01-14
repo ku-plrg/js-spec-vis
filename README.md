@@ -113,10 +113,10 @@ Then, run the following command to collect Test262 programs:
 js-spec-vis test262-test -test262-test:progress -test262-test:log -test262-test:concurrent=0 -test262-test:total-coverage
 ```
 
-And, collect the programs:
+And, collect the programs by constructing metadata from the collected data:
 
 ```bash
-js-spec-vis collect
+js-spec-vis construct
 ```
 
 Finally, move the `logs/fuzz/recent/json-dump` directory to the visualizer
