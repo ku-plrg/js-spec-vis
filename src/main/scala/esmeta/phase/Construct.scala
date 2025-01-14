@@ -97,7 +97,7 @@ case object Construct extends Phase[CFG, Unit] {
 
   val RECENT_DIR = s"$FUZZ_LOG_DIR/recent"
   val DUMP_DIR = s"$RECENT_DIR/json-dump"
-  val RECENT_TEST262_DIR = s"$TEST262TEST_LOG_DIR/eval-250108_02_03"
+  val RECENT_TEST262_DIR = s"$TEST262TEST_LOG_DIR/recent"
   private val MINIMAL_DIR = s"$RECENT_DIR/minimal"
   private val noSpace = false
 
