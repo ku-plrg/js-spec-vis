@@ -6,7 +6,7 @@ import esmeta.error.NoEnvVarError
 val LINE_SEP = System.getProperty("line.separator")
 
 /** base project directory root */
-val VERSION = "0.5.1"
+val VERSION = "1.0.0"
 
 /** base project directory root */
 val BASE_DIR = sys.env.getOrElse("ESMETA_HOME", throw NoEnvVarError)
@@ -43,7 +43,7 @@ val MANUALS_DIR = s"$RESOURCE_DIR/manuals"
 val RESULT_DIR = s"$RESOURCE_DIR/result"
 
 /** package name */
-val PACKAGE_NAME = "esmeta"
+val PACKAGE_NAME = "js-spec-vis"
 
 /** tests directory */
 val IR_TEST_DIR = s"$TEST_DIR/ir"

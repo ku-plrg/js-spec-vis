@@ -57,8 +57,8 @@ object ESMeta extends Git(BASE_DIR) {
 
   /** welcome message */
   val welcome: String =
-    s"""Welcome to ESMeta v$VERSION - ECMAScript Specification Metalanguage.
-       |Please type `esmeta help` to see the help message.""".stripMargin
+    s"""Welcome to JSSpecVis v$VERSION - A JavaScript Language Specification Visualization Tool.
+       |Please type `js-spec-vis help` to see the help message.""".stripMargin
 
   /** commands */
   val commands: List[Command[_]] = List(
