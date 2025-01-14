@@ -189,7 +189,8 @@ npm install && npm run build
 
 And follow the instructions below to install the visualizer extension:
 
-1. Open the Chrome browser and enter `chrome://extensions/`.
+1. Open the Chrome browser and enter
+   [`chrome://extensions/`](chrome://extensions/).
 2. Turn on the `Developer mode` on the top right corner.
 3. Click the `Load unpacked` button and select the `visualizer/dist` directory.
 
