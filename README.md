@@ -71,12 +71,14 @@ However, fuzzing require tens of hours to collect the programs, and executing
 test262 require more than 10 minutes. So, we provide three options to collect
 the programs.
 
+> [!NOTE]
+> 
+> We highly recommend using [1. Use Pre-collected
+> Dataset](#1-use-pre-collected-dataset) option to use the pre-collected
+> dataset.
+
 
 #### 1. Use Pre-collected Dataset
-
-> :note:
-> 
-> We highly recommend using the pre-collected dataset to save your time.
 
 The easiest way to use JSSpecVis is to use the pre-collected dataset.
 First, unzip the `resources.tar.gz` file:
