@@ -89,7 +89,7 @@ tar -xzvf resources.tar.gz
 
 Then, move the `resources` directory to the visualizer public directory:
 ```
-mv resources/* visualizer/public/resources/*
+mv resources/* visualizer/public/resources/
 ```
 
 
