@@ -61,7 +61,7 @@ preprocessor, 2) **Program Visualizer** for browsing the collected programs, and
 specification.
 
 
-### Program Collector
+## Program Collector
 
 First, you need to collect example programs from the mechanized specification of
 ES2024. It consists of three phases: 1) fuzzing, 2) executing test262, 3)
@@ -78,7 +78,7 @@ the programs.
 > dataset.
 
 
-#### 1. Use Pre-collected Dataset
+### 1. Use Pre-collected Dataset
 
 The easiest way to use JSSpecVis is to use the pre-collected dataset.
 First, unzip the `resources.tar.gz` file:
@@ -93,7 +93,7 @@ mv resources visualizer/public/
 ```
 
 
-#### 2. Start from Fuzzing Results
+### 2. Start from Fuzzing Results
 
 It assumes that the mutation-based fuzzing is completed, and the results are
 stored in the `fuzz-data.tar.gz` file. First, unzip the `fuzz-data.tar.gz` file:
@@ -128,7 +128,7 @@ mv logs/fuzz/recent/json-dump visualizer/public/resources
 
 
 
-#### 3. Collect Programs by Yourself
+### 3. Collect Programs by Yourself
 
 
 This is the most time-consuming option. If you want to collect the programs
@@ -163,9 +163,14 @@ public directory:
 mv logs/fuzz/recent/json-dump visualizer/public/resources
 ```
 
-### Program Visualizer
 
-TODO
+## Program Visualizer
+
+To visualize the collected programs, run the following command:
+
+```bash
+npm install && npm run build
+```
 
 
-### Double Debugger
+## Double Debugger
