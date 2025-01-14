@@ -89,7 +89,7 @@ tar -xzvf resources.tar.gz
 
 Then, move the `resources` directory to the visualizer public directory:
 ```
-mv resources visualizer/public/
+mv resources/* visualizer/public/resources/
 ```
 
 
@@ -126,7 +126,7 @@ Finally, move the `logs/fuzz/recent/json-dump` directory to the visualizer
 public directory:
 
 ```bash
-mv logs/fuzz/recent/json-dump visualizer/public/resources
+mv logs/fuzz/recent/json-dump/* visualizer/public/resources/
 ```
 
 </details>
@@ -167,7 +167,7 @@ Finally, move the `logs/fuzz/recent/json-dump` directory to the visualizer
 public directory:
 
 ```bash
-mv logs/fuzz/recent/json-dump visualizer/public/resources
+mv logs/fuzz/recent/json-dump/* visualizer/public/resources/
 ```
 
 </details>
