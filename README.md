@@ -19,7 +19,7 @@ of double debugger.
 
 ### Download JSSpecVis
 ```bash
-$ git clone https://github.com/ku-plrg/js-spec-vis.git
+git clone https://github.com/ku-plrg/js-spec-vis.git
 ```
 
 ### Environment Setting
@@ -42,12 +42,12 @@ binary file `bin/js-spec-vis`, and 3) apply the `.completion` for
 auto-completion.
 
 ```bash
-$ git submodule update --init && sbt assembly && source .completion
+git submodule update --init && sbt assembly && source .completion
 ```
 
 If you see the following message, JSSpecVis is successfully installed:
 ```bash
-$ js-spec-vis
+js-spec-vis
 # Welcome to JSSpecVis v1.0.0 - A JavaScript Language Specification Visualization Tool.
 # Please type `js-spec-vis help` to see the help message.
 ```
