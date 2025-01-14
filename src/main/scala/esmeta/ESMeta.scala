@@ -70,6 +70,7 @@ object ESMeta extends Git(BASE_DIR) {
     // Program Collector
     CmdFuzz,
     CmdTest262Test,
+    CmdConstruct,
     // Double Debugger
     CmdWeb,
   )
@@ -87,6 +88,7 @@ object ESMeta extends Git(BASE_DIR) {
     // Program Collector
     Fuzz,
     Test262Test,
+    Construct,
     // Double Debugger
     Web,
   )

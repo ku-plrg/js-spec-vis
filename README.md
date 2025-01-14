@@ -150,10 +150,10 @@ Test262 programs:
 js-spec-vis test262-test -test262-test:progress -test262-test:log -test262-test:concurrent=0 -test262-test:total-coverage
 ```
 
-And, collect the programs:
+And, collect the programs by constructing metadata from the collected data:
 
 ```bash
-js-spec-vis collect
+js-spec-vis construct
 ```
 
 Finally, move the `logs/fuzz/recent/json-dump` directory to the visualizer
@@ -166,7 +166,13 @@ mv logs/fuzz/recent/json-dump visualizer/public/resources
 
 ## Program Visualizer
 
-To visualize the collected programs, run the following command:
+Enter the visualizer directory:
+
+```bash
+cd visualizer
+```
+
+Then, run the following command to build the visualizer:
 
 ```bash
 npm install && npm run build
@@ -174,3 +180,25 @@ npm install && npm run build
 
 
 ## Double Debugger
+
+It requires two steps to run the double debugger. First, you need to turn on the
+server using `js-spec-vis`:
+
+```bash
+js-spec-vis web
+```
+
+For the client side, enter the `client` directory:
+
+```bash
+cd client
+```
+
+Then, run the following command to start the client:
+
+```bash
+npm install && npm start
+```
+
+Then, open the browser and enter `http://localhost:3000` to use the double
+debugger.
