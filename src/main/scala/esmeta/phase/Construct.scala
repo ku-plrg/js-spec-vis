@@ -95,7 +95,7 @@ case object Construct extends Phase[CFG, Unit] {
   val TargetNodeId: MSet[Int] = MSet()
   val NoLocFunc: MSet[Int] = MSet()
 
-  val RECENT_DIR = s"$FUZZ_LOG_DIR/fuzz-250112_09_00"
+  val RECENT_DIR = s"$FUZZ_LOG_DIR/recent"
   val DUMP_DIR = s"$RECENT_DIR/json-dump"
   val RECENT_TEST262_DIR = s"$TEST262TEST_LOG_DIR/eval-250108_02_03"
   private val MINIMAL_DIR = s"$RECENT_DIR/minimal"
