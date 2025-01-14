@@ -95,6 +95,9 @@ mv resources visualizer/public/
 
 ### 2. Start from Fuzzing Results
 
+<details>
+  <summary>Show the detailed instructions</summary>
+
 It assumes that the mutation-based fuzzing is completed, and the results are
 stored in the `fuzz-data.tar.gz` file. First, unzip the `fuzz-data.tar.gz` file:
 
@@ -126,10 +129,14 @@ public directory:
 mv logs/fuzz/recent/json-dump visualizer/public/resources
 ```
 
+</details>
+
 
 
 ### 3. Collect Programs by Yourself
 
+<details>
+  <summary>Show the detailed instructions</summary>
 
 This is the most time-consuming option. If you want to collect the programs
 by yourself, please follow the instructions below.
@@ -162,6 +169,8 @@ public directory:
 ```bash
 mv logs/fuzz/recent/json-dump visualizer/public/resources
 ```
+
+</details>
 
 
 ## Program Visualizer
