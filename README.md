@@ -1,5 +1,7 @@
 # JSSpecVis: A JavaScript Language Specification Visualization Tool
 
+> :warning: This repository is no longer maintained. Since we have ported all the features to the [ESMeta](https://github.com/es-meta/esmeta) framework, please use it instead.
+
 JSSpecVis is a tool that visualizes the JavaScript language specification
 ([ECMA-262](https://tc39.es/ecma262/)). It extends
 [ESMeta](https://github.com/es-meta/esmeta) tool-chain to extract the
